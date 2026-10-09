@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algoritmo da Minha Vida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <a class="logo" href="#inicio">AMV<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#rotina">Minha rotina</a>
+        <a href="#fluxograma">Fluxograma</a>
+        <a href="#melhorias">Melhorias</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">QUALIDADE DE VIDA • SAÚDE MENTAL</p>
+
+      <h1>Algoritmo<br>da minha <span>vida.</span></h1>
+
+      <p class="intro">
+        Pequenas decisões diárias podem transformar a forma
+        como estudamos, trabalhamos e cuidamos de nós mesmos.
+      </p>
+
+      <a class="button" href="#fluxograma">
+        Explorar meu algoritmo ↓
+      </a>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="rotina">
+      <div class="section-heading">
+        <p class="eyebrow">01 — ORGANIZAÇÃO</p>
+        <h2>Três partes da<br><span>minha rotina</span></h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">⌂</div>
+          <h3>Casa</h3>
+          <p>
+            Organizar meu espaço, ajudar nas tarefas
+            e reservar um tempo para descansar.
+          </p>
+          <span class="tag">Equilíbrio</span>
+        </article>
+
+        <article class="card featured">
+          <div class="card-icon">✎</div>
+          <h3>Escola</h3>
+          <p>
+            Planejar os estudos, fazer as atividades
+            e pedir ajuda quando tiver dúvidas.
+          </p>
+          <span class="tag">Aprendizado</span>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">◷</div>
+          <h3>Trabalho</h3>
+          <p>
+            Cumprir os horários, organizar as responsabilidades
+            e fazer pausas quando necessário.
+          </p>
+          <span class="tag">Responsabilidade</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section flow-section" id="fluxograma">
+      <div class="section-heading">
+        <p class="eyebrow">02 — TOMADA DE DECISÃO</p>
+        <h2>Meu dia, passo<br><span>a passo.</span></h2>
+        <p class="section-description">
+          Um exemplo de fluxograma para decidir como
+          começar o dia com mais tranquilidade.
+        </p>
+      </div>
+
+      <div class="flowchart">
+        <div class="flow-node start">INÍCIO</div>
+        <div class="connector"></div>
+
+        <div class="flow-node action">O alarme toca</div>
+        <div class="connector"></div>
+
+        <div class="flow-node decision">
+          Dormi o suficiente?
+        </div>
+
+        <div class="branches">
+          <div class="branch">
+            <span class="branch-label">SIM</span>
+            <div class="connector"></div>
+
+            <div class="flow-node action">
+              Levantar, tomar café e me preparar
+            </div>
+
+            <div class="connector"></div>
+
+            <div class="flow-node result">
+              Começar o dia com energia
+            </div>
+          </div>
+
+          <div class="branch">
+            <span class="branch-label">NÃO</span>
+            <div class="connector"></div>
+
+            <div class="flow-node action">
+              Levantar com calma e rever minha rotina
+            </div>
+
+            <div class="connector"></div>
+
+            <div class="flow-node result">
+              Planejar um horário melhor para dormir
+            </div>
+          </div>
+        </div>
+
+        <p class="flow-note">
+          O objetivo não é ter um dia perfeito,
+          mas perceber o que posso melhorar.
+        </p>
+      </div>
+    </section>
+
+    <section class="section improvements" id="melhorias">
+      <div class="section-heading">
+        <p class="eyebrow">03 — PEQUENAS MUDANÇAS</p>
+        <h2>Hábitos que posso<br><span>melhorar.</span></h2>
+      </div>
+
+      <div class="habit-list">
+        <label class="habit">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <span>
+            <strong>Organizar as tarefas</strong>
+            <small>Escolher prioridades para casa e escola.</small>
+          </span>
+        </label>
+
+        <label class="habit">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <span>
+            <strong>Diminuir distrações</strong>
+            <small>Fazer pausas nas redes sociais durante os estudos.</small>
+          </span>
+        </label>
+
+        <label class="habit">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <span>
+            <strong>Cuidar do descanso</strong>
+            <small>Manter uma rotina de sono sempre que possível.</small>
+          </span>
+        </label>
+
+        <label class="habit">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          <span>
+            <strong>Reservar tempo para mim</strong>
+            <small>Descansar, conversar e fazer algo de que gosto.</small>
+          </span>
+        </label>
+      </div>
+
+      <p class="progress-text">
+        <span id="progress-count">0</span> de 4 hábitos marcados
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#inicio">AMV<span>.</span></a>
+    <p>Minha vida é feita de escolhas. Um passo de cada vez.</p>
+    <p class="copyright">Projeto escolar • Algoritmo da Minha Vida</p>
+  </footer>
+
+</body>
+</html>
